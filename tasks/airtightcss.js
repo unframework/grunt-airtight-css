@@ -20,7 +20,7 @@ module.exports = function (grunt) {
                 var logMessage = '[' + file + ':' + line + ':' + column + '] ' + msg;
 
                 if (!ignoreErrors) {
-                    grunt.log.error('NOOOO' + logMessage);
+                    grunt.log.error(logMessage);
                     hasErrors = true;
                 } else {
                     grunt.log.writeln('IGNORED ' + logMessage);
