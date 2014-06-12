@@ -1,6 +1,6 @@
 {
   "name": "grunt-airtight-css",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Grunt task to check CSS naming for Airtight rules",
   "author": "Nick Matantsev <nick.matantsev@gmail.com>",
   "license": "BSD",
@@ -9,6 +9,6 @@
     "url": "https://github.com/unframework/grunt-airtight-css.git"
   },
   "dependencies": {
-    "airtight-css-lint": "~0.1.0"
+    "airtight-css-lint": "~0.2.0"
   }
 }
